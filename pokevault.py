@@ -365,7 +365,7 @@ def location_content():#same code as the games_content
     canvas.place(relx=0.5, rely=0.72, height=700, width=700, anchor="center")  
     scrollbar.place(relheight=1, relx=1, anchor="ne") 
 
-start_screen()
+start_screen() #calling the start_screen function to start the application
 
 root.mainloop()
 
